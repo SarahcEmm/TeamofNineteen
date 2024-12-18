@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christmas Advent Calendar</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a href="index.html">🎄 Jolly Jingle</a>
+    </div>
+    <div class="navbar-toggle" id="navbar-toggle">☰</div>
+    <ul class="navbar-links" id="navbar-links">
+      <li><a href="Home.html">Home 🎅</a></li>
+      <li><a href="about.html">About 🌟</a></li>
+    </ul>
+  </nav>
+
+  <h1 style="text-align: center; margin: 20px; padding: 20px; color: white;">🎄 Jolly Jingles 🎅</h1>
+
+  <div class="calendar-wrapper">
+    <div class="calendar-container"></div>
+    <div class="bottom-left-image">
+      <a href="activities.html" target="_blank">
+        <img src="Designer__49_-removebg-preview.png" alt="Bottom Left Image" class="responsive-image">
+      </a>
+    </div>
+  </div>
+
+  <div class="modal-overlay">
+    <div class="modal-content">
+      <p class="modal-question">Default question here...</p>
+      <div class="modal-nominations"></div>
+      <div class="modal-buttons">
+        <button class="modal-reveal">Reveal Winner</button>
+        <button class="modal-no">Don't care!</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="fullscreen-modal" id="celebratory-modal">
+    <div class="celebratory-content">
+      <h2 id="winner-name"></h2>
+      <div id="fireworks-container"></div>
+    </div>
+  </div>
+
+  <canvas id="snowCanvas"></canvas>
+  <footer class="footer mt-auto py-3 custom-footer">
+    <div class="container">
+
+
+        <!-- GitHub Links and Copyright Section -->
+        <div class="footer-bottom d-flex justify-content-center flex-column align-items-center mt-3">
+            <p class="m-0 text-white">
+                <a href="https://github.com/MartinCowey" class="text-white ms-2"><i class="fab fa-github"></i>
+                    Martin Cowey</a>
+                <a href="https://github.com/SarahcEmm" class="text-white ms-2"><i class="fab fa-github"></i> Sarah
+</a>
+                <a href="https://github.com/ZazaMasilo" class="text-white ms-2"><i class="fab fa-github"></i> Zandi
+                    Masilo</a>
+            </p>
+            <p class="m-0 text-center text-white mt-2">&copy; 2024 Jolly Jingles. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
